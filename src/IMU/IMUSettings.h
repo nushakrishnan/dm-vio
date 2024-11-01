@@ -44,7 +44,7 @@ public:
     void registerArgs(dmvio::SettingsUtil& set);
 
     // Prefix for all results files.
-    std::string resultsPrefix = "";
+    std::string resultsPrefix = "/home/baselines/algorithms/dmvio/";
 
     IMUInitSettings initSettings; // settings for the IMU initializer.
     double maxTimeBetweenInitFrames = 100000.0; // Maximum time between the first 2 frames for DSO.
